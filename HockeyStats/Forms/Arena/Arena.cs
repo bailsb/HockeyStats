@@ -12,6 +12,8 @@ namespace HockeyStats
 {
     public partial class Arena : Form
     {
+        public Grid ArenaGrid;
+
         public Arena()
         {
             InitializeComponent();
@@ -21,11 +23,18 @@ namespace HockeyStats
         {
             this.FormBorderStyle = FormBorderStyle.Fixed3D;
             this.WindowState = FormWindowState.Maximized;
+
+            ArenaGrid = new Grid();
         }
 
         private void RinkBackground_Click(object sender, EventArgs e)
         {
             ShotTracker.TrackShot(sender, e);
+        }
+
+        private void SizeGrid(Grid grid)
+        {
+            
         }
     }
 }

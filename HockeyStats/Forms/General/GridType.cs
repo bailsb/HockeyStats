@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HockeyStats.Models
+namespace HockeyStats.Forms
 {
-    enum ShotHand
+    public enum GridType
     {
-        Left,
-        Right
+        Ice,
+        Net
     }
 }

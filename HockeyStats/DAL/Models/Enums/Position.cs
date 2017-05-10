@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HockeyStats.Models
 {
-    enum Position
+    public enum Position
     {
         Forward,
         Defense,

@@ -41,9 +41,9 @@ namespace HockeyStats
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.RinkBackground.Image = ((System.Drawing.Image)(resources.GetObject("RinkBackground.Image")));
-            this.RinkBackground.Location = new System.Drawing.Point(0, 0);
+            this.RinkBackground.Location = new System.Drawing.Point(55, 0);
             this.RinkBackground.Name = "RinkBackground";
-            this.RinkBackground.Size = new System.Drawing.Size(1222, 630);
+            this.RinkBackground.Size = new System.Drawing.Size(1053, 533);
             this.RinkBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.RinkBackground.TabIndex = 0;
             this.RinkBackground.TabStop = false;
